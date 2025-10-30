@@ -1,0 +1,118 @@
+/* form{
+    display: flex;
+    flex-direction: column;
+    width: 57rem;
+    margin: auto;
+    
+}
+.container{
+    background: #ededed;
+    padding: 59px;
+    border-radius: 10px;
+    width: 65rem;
+    display: flex;
+    flex-direction: column;
+} */
+.container{
+    background: #8080803b;
+    padding: 36px;
+    width: 56rem;
+    border-radius: 12px;
+}
+.alert{
+    text-align: center;
+}
+#owner_name{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+#society_name{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+#caste{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;    
+}
+#address{
+    padding: 7px 10px;
+    font-size: 15px;
+    font-family: sans-serif; 
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#price{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+#sq_ft{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+#city{
+    padding: 10px 10px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#bhk{
+    padding: 10px 10px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+label{
+    padding: 10px 10px;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+input{
+    font-size: 16px;
+}
+.btn button{
+    width: 39%;
+    margin-right: 6px;
+    height: 43px;
+    border: none;
+    border-radius: 6px;
+}
+.btn button:hover{
+    background-color: rgba(0, 0, 0, 0.915);
+    color: white;
+    transition: 0.6s;
+}
+.btn{
+    width: 32%;
+    margin: auto;
+}
+
+/* Add Property */
+#heading{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+

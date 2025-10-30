@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+td img{
+   margin-right: 0.5rem;
+}
+#view_img{
+    vertical-align: middle;
+}
+#info{
+    vertical-align: middle;
+}
+body{
+    background: url('https://wallpaperaccess.com/full/868866.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.viewproperty{
+    background-color: #fff5;
+    width: 100vw;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem rgb(157, 157, 157);
+    border-radius: .8rem;
+    overflow: hidden;
+    margin-top: 2rem;
+    /* position: relative; */
+    z-index: -1;
+}
+.table_header{
+    width: 100%;
+    background-color: rgb(0 0 0 / 45%);
+    color: rgba(255, 255, 255, 0.801);
+}
+.table_header h2{
+    font-family: 'Mukta', sans-serif;
+    padding: .8rem 1rem;
+}
+.table_body{
+    width: 98%;
+    max-height: calc(89% - .8rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+}
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+.table_body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+table{
+    width: 100%;
+}
+
+thead th{
+    position: sticky;
+}
+#main_th{
+    background-color: #8080804f;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-name">
+            <a href="../index.html" style="text-decoration: none;">
+                <h1>Home <span>Rental</span></h1>
+            </a>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        
+          <div class="navbar-links">
+            <ul class="nav-list">
+              <li class="nav-items"><a href="../index.html">Home</a></li>
+              <li class="nav-items"><a href="../View_Homes.php">View Homes</a></li>
+              <li class="nav-items"><a href="../About Us/about.html">About Us </a></li>
+              <li class="nav-items"><a href="../Help/help.html">Help</a></li>
+            </ul>
+          </div>
+        
+       
+      </nav>
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="content">
+                    <h3>Short Summary:</h3>
+                    <p>This Website helps users to register individual homes or apartments to assist you in finding the perfect rental home or property. Also, we can find your next rental from search view in your targeted area. This website is designed to attend to all our needs from buying property, selling property or renting/leasing of property in India. <br><br>
+                        The house rental issue is one of the elemental parts of society. Nowadays, it is extremely difficult to find suitable accommodation in city areas if people search for it physically. On the other hand, the landowner also needs to rent the house. It can be difficult to find tenants just to hang a lease sign on a building, and as a result, they lose money. An online common platform can play a vital role in this case.
+                        </p>
+                    <div class="button">
+                        <a href="#">Read More</a>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fab-fa-facebook"></i></a>
+                        <a href=""><i class="fab-fa-twitter"></i></a>
+                        <a href=""><i class="fab-fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+                <div class="image-section">
+                    <img src="Images\Team.jpg" alt="">
+                </div>
+        </div>
+    </div>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+        } )
+
+    </script>
+</body>
+</html>
